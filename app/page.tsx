@@ -5,6 +5,7 @@ import RecordButton, { type Step } from "@/components/RecordButton";
 import QuestionCard, { type BankQuestion } from "@/components/QuestionCard";
 import ChapterPanel from "@/components/ChapterPanel";
 import StageProgress from "@/components/StageProgress";
+import OnboardingForm, { type ProfileInput } from "@/components/OnboardingForm";
 
 interface HistoryEntry {
   role: "user" | "assistant";
@@ -36,6 +37,10 @@ export default function Home() {
   const [lastChapter, setLastChapter] = useState("");
   const [stageAdvancedNote, setStageAdvancedNote] = useState("");
 
+  // null = still checking, false = needs onboarding, true = profile already set
+  const [profileReady, setProfileReady] = useState<boolean | null>(null);
+  const [savingProfile, setSavingProfile] = useState(false);
+
   const mediaRecorderRef = useRef<MediaRecorder | null>(null);
   const chunksRef = useRef<Blob[]>([]);
   const timerRef = useRef<ReturnType<typeof setInterval> | null>(null);
@@ -49,8 +54,28 @@ export default function Home() {
   }, []);
 
   useEffect(() => {
-    loadNextQuestion();
+    (async () => {
+      const res = await fetch("/api/profile");
+      const data = await res.json();
+      setProfileReady(!!data.profile);
+      if (data.profile) loadNextQuestion();
+    })();
   }, [loadNextQuestion]);
+
+  const submitProfile = async (profile: ProfileInput) => {
+    setSavingProfile(true);
+    try {
+      await fetch("/api/profile", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(profile),
+      });
+      setProfileReady(true);
+      await loadNextQuestion();
+    } finally {
+      setSavingProfile(false);
+    }
+  };
 
   const startRecording = useCallback(async () => {
     try {
@@ -177,42 +202,54 @@ export default function Home() {
         </p>
       </header>
 
-      <StageProgress
-        currentStageId={currentStageId}
-        totalAnswered={progress.totalAnswered}
-        totalQuestions={progress.totalQuestions}
-      />
-
-      {stageAdvancedNote && (
-        <p className="text-xs text-gold tracking-wide">{stageAdvancedNote}</p>
+      {profileReady === null && (
+        <p className="text-text-dim text-sm">불러오는 중…</p>
       )}
 
-      <QuestionCard
-        question={currentQuestion}
-        showJapanese={showJapanese}
-        onToggleJapanese={() => setShowJapanese((v) => !v)}
-      />
-
-      <RecordButton
-        step={step}
-        recordingSeconds={recordingSeconds}
-        statusText={statusText}
-        onClick={step === "recording" ? stopRecording : startRecording}
-        disabled={!currentQuestion && step === "idle"}
-      />
-
-      {lastChapter && (
-        <ChapterPanel
-          label="방금 남긴 이야기"
-          transcript={lastTranscript}
-          chapter={lastChapter}
-        />
+      {profileReady === false && (
+        <OnboardingForm onComplete={submitProfile} submitting={savingProfile} />
       )}
 
-      {history.length > 0 && (
-        <p className="text-xs text-text-muted">
-          지금까지 {Math.floor(history.length / 2)}개의 이야기를 남겼어요
-        </p>
+      {profileReady === true && (
+        <>
+          <StageProgress
+            currentStageId={currentStageId}
+            totalAnswered={progress.totalAnswered}
+            totalQuestions={progress.totalQuestions}
+          />
+
+          {stageAdvancedNote && (
+            <p className="text-xs text-gold tracking-wide">{stageAdvancedNote}</p>
+          )}
+
+          <QuestionCard
+            question={currentQuestion}
+            showJapanese={showJapanese}
+            onToggleJapanese={() => setShowJapanese((v) => !v)}
+          />
+
+          <RecordButton
+            step={step}
+            recordingSeconds={recordingSeconds}
+            statusText={statusText}
+            onClick={step === "recording" ? stopRecording : startRecording}
+            disabled={!currentQuestion && step === "idle"}
+          />
+
+          {lastChapter && (
+            <ChapterPanel
+              label="방금 남긴 이야기"
+              transcript={lastTranscript}
+              chapter={lastChapter}
+            />
+          )}
+
+          {history.length > 0 && (
+            <p className="text-xs text-text-muted">
+              지금까지 {Math.floor(history.length / 2)}개의 이야기를 남겼어요
+            </p>
+          )}
+        </>
       )}
     </main>
   );

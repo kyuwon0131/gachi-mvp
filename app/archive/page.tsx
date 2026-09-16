@@ -1,4 +1,6 @@
+import { cookies } from "next/headers";
 import { getAllEntries, getProgressSummary, TOTAL_STAGES } from "@/lib/questions";
+import { getProfile } from "@/lib/profile";
 import ChapterPanel from "@/components/ChapterPanel";
 
 const STAGE_NAMES: Record<number, string> = {
@@ -14,9 +16,13 @@ const STAGE_NAMES: Record<number, string> = {
   10: "은퇴 이후·후대에 남기는 말",
 };
 
-export default function ArchivePage() {
-  const entries = getAllEntries();
-  const progress = getProgressSummary();
+export default async function ArchivePage() {
+  const cookieStore = await cookies();
+  const sessionId = cookieStore.get("gachi_session")?.value ?? "no-session-yet";
+  const profile = getProfile(sessionId);
+
+  const entries = getAllEntries(sessionId);
+  const progress = getProgressSummary(sessionId, profile);
   const stagesStarted = new Set(entries.map((e) => e.life_stage_id)).size;
 
   const byStage = new Map<number, typeof entries>();

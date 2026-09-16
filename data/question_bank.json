@@ -7,62 +7,185 @@
       {
         "id": 1,
         "question_ko": "어린 시절 살던 고향과 동네는 어떤 곳이었나요? 지금도 눈에 선한 풍경이 있다면 들려주세요.",
-        "question_ja": "子どもの頃に過ごした故郷や町はどんな所でしたか？今でも目に浮かぶ風景があれば教えてください。"
+        "question_ja": "子どもの頃に過ごした故郷や町はどんな所でしたか？今でも目に浮かぶ風景があれば教えてください。",
+        "applicability": {
+          "requires_marriage": false,
+          "requires_children": false,
+          "career_type": [
+            "any"
+          ]
+        },
+        "themes": [
+          "가족/고향"
+        ]
       },
       {
         "id": 2,
         "question_ko": "부모님은 어떤 분들이셨나요? 두 분에게서 각각 다르게 물려받은 것이 있다면 무엇인가요?",
-        "question_ja": "ご両親はどんな方でしたか？お二人からそれぞれ違った形で受け継いだものはありますか？"
+        "question_ja": "ご両親はどんな方でしたか？お二人からそれぞれ違った形で受け継いだものはありますか？",
+        "applicability": {
+          "requires_marriage": false,
+          "requires_children": false,
+          "career_type": [
+            "any"
+          ]
+        },
+        "themes": [
+          "가족/고향",
+          "후계자/승계"
+        ]
       },
       {
         "id": 3,
         "question_ko": "전쟁이나 큰 시대적 격변 속에서 가족이 겪은 일이 있나요?",
-        "question_ja": "戦争や大きな時代の激動の中で、ご家族が経験されたことはありますか？"
+        "question_ja": "戦争や大きな時代の激動の中で、ご家族が経験されたことはありますか？",
+        "applicability": {
+          "requires_marriage": false,
+          "requires_children": false,
+          "career_type": [
+            "any"
+          ]
+        },
+        "themes": [
+          "가족/고향",
+          "시대적배경(전쟁·경제위기)"
+        ]
       },
       {
         "id": 4,
         "question_ko": "어릴 때 집안 형편이 갑자기 어려워지거나 크게 바뀐 경험이 있나요? 그때 가족들은 어떻게 대처했나요?",
-        "question_ja": "幼い頃、家計が急に苦しくなったり大きく変わったりした経験はありますか？その時、ご家族はどう対処されましたか？"
+        "question_ja": "幼い頃、家計が急に苦しくなったり大きく変わったりした経験はありますか？その時、ご家族はどう対処されましたか？",
+        "applicability": {
+          "requires_marriage": false,
+          "requires_children": false,
+          "career_type": [
+            "any"
+          ]
+        },
+        "themes": [
+          "가족/고향"
+        ]
       },
       {
         "id": 5,
         "question_ko": "조부모님이나 다른 어른의 손에서 자란 경험이 있나요? 그분에게서 배운 것이 있다면 무엇인가요?",
-        "question_ja": "祖父母や他の大人の手で育てられた経験はありますか？その方から学んだことがあれば教えてください。"
+        "question_ja": "祖父母や他の大人の手で育てられた経験はありますか？その方から学んだことがあれば教えてください。",
+        "applicability": {
+          "requires_marriage": false,
+          "requires_children": false,
+          "career_type": [
+            "any"
+          ]
+        },
+        "themes": [
+          "가족/고향"
+        ]
       },
       {
         "id": 6,
         "question_ko": "형제자매 중에서의 위치(맏이, 막내 등)가 성격을 만드는 데 영향을 주었다고 느끼시나요?",
-        "question_ja": "兄弟姉妹の中での立場（長子、末っ子など）が、性格形成に影響したと感じますか？"
+        "question_ja": "兄弟姉妹の中での立場（長子、末っ子など）が、性格形成に影響したと感じますか？",
+        "applicability": {
+          "requires_marriage": false,
+          "requires_children": false,
+          "career_type": [
+            "any"
+          ]
+        },
+        "themes": [
+          "가족/고향"
+        ]
       },
       {
         "id": 7,
         "question_ko": "어릴 때 큰 병을 앓거나 생사를 오간 경험이 있나요? 그때 가족은 어떻게 돌봐주었나요?",
-        "question_ja": "幼い頃、大きな病気をしたり生死をさまよったりした経験はありますか？その時、ご家族はどのように支えてくれましたか？"
+        "question_ja": "幼い頃、大きな病気をしたり生死をさまよったりした経験はありますか？その時、ご家族はどのように支えてくれましたか？",
+        "applicability": {
+          "requires_marriage": false,
+          "requires_children": false,
+          "career_type": [
+            "any"
+          ]
+        },
+        "themes": [
+          "가족/고향",
+          "건강/투병"
+        ]
       },
       {
         "id": 8,
         "question_ko": "가족을 갑작스럽게 떠나보낸 경험이 있다면, 그 상실이 이후 삶에 어떤 영향을 미쳤나요?",
-        "question_ja": "ご家族を突然亡くされた経験があれば、その喪失がその後の人生にどんな影響を与えましたか？"
+        "question_ja": "ご家族を突然亡くされた経験があれば、その喪失がその後の人生にどんな影響を与えましたか？",
+        "applicability": {
+          "requires_marriage": false,
+          "requires_children": false,
+          "career_type": [
+            "any"
+          ]
+        },
+        "themes": [
+          "가족/고향"
+        ]
       },
       {
         "id": 9,
         "question_ko": "어릴 때 스스로 무언가를 만들어 팔거나 처음으로 돈을 벌어본 경험이 있나요?",
-        "question_ja": "子どもの頃、自分で何かを作って売ったり、初めてお金を稼いだりした経験はありますか？"
+        "question_ja": "子どもの頃、自分で何かを作って売ったり、初めてお金を稼いだりした経験はありますか？",
+        "applicability": {
+          "requires_marriage": false,
+          "requires_children": false,
+          "career_type": [
+            "any"
+          ]
+        },
+        "themes": [
+          "인생철학/신념"
+        ]
       },
       {
         "id": 10,
         "question_ko": "어릴 때 자신은 어떤 아이였나요 (울보, 개구쟁이, 대장 기질 등)? 그런 성격이 형성된 배경이 있을까요?",
-        "question_ja": "子どもの頃、自分はどんな子でしたか（泣き虫、いたずらっ子、リーダー気質など）？その性格が形成された背景はありますか？"
+        "question_ja": "子どもの頃、自分はどんな子でしたか（泣き虫、いたずらっ子、リーダー気質など）？その性格が形成された背景はありますか？",
+        "applicability": {
+          "requires_marriage": false,
+          "requires_children": false,
+          "career_type": [
+            "any"
+          ]
+        },
+        "themes": [
+          "인생철학/신념"
+        ]
       },
       {
         "id": 11,
         "question_ko": "고향 마을에 전해오던 특별한 축제나 전통 행사에 얽힌 추억이 있나요?",
-        "question_ja": "故郷の町に伝わる特別な祭りや伝統行事にまつわる思い出はありますか？"
+        "question_ja": "故郷の町に伝わる特別な祭りや伝統行事にまつわる思い出はありますか？",
+        "applicability": {
+          "requires_marriage": false,
+          "requires_children": false,
+          "career_type": [
+            "any"
+          ]
+        },
+        "themes": [
+          "가족/고향"
+        ]
       },
       {
         "id": 12,
         "question_ko": "어릴 때 집안 형편이나 다른 이유로 따돌림이나 차별을 겪은 경험이 있나요? 어떻게 견뎌내셨나요?",
-        "question_ja": "幼い頃、家庭の事情や他の理由でいじめや差別を受けた経験はありますか？どのように乗り越えましたか？"
+        "question_ja": "幼い頃、家庭の事情や他の理由でいじめや差別を受けた経験はありますか？どのように乗り越えましたか？",
+        "applicability": {
+          "requires_marriage": false,
+          "requires_children": false,
+          "career_type": [
+            "any"
+          ]
+        },
+        "themes": [
+          "인생철학/신념"
+        ]
       }
     ]
   },
@@ -72,64 +195,188 @@
     "life_stage_ja": "学生時代・青年期",
     "questions": [
       {
-        "id": 1,
+        "id": 13,
         "question_ko": "학창시절 큰 영향을 받은 스승이나 선생님이 계셨나요? 어떤 가르침이 지금도 마음에 남아있나요?",
-        "question_ja": "学生時代に大きな影響を受けた恩師や先生はいらっしゃいましたか？どんな教えが今も心に残っていますか？"
+        "question_ja": "学生時代に大きな影響を受けた恩師や先生はいらっしゃいましたか？どんな教えが今も心に残っていますか？",
+        "applicability": {
+          "requires_marriage": false,
+          "requires_children": false,
+          "career_type": [
+            "any"
+          ]
+        },
+        "themes": [
+          "교육/스승"
+        ]
       },
       {
-        "id": 2,
+        "id": 14,
         "question_ko": "학창시절 공부보다 더 몰두했던 취미나 활동이 있었나요? 그것이 이후 삶에 어떤 영향을 주었나요?",
-        "question_ja": "学生時代、勉強より夢中になった趣味や活動はありましたか？それがその後の人生にどう影響しましたか？"
+        "question_ja": "学生時代、勉強より夢中になった趣味や活動はありましたか？それがその後の人生にどう影響しましたか？",
+        "applicability": {
+          "requires_marriage": false,
+          "requires_children": false,
+          "career_type": [
+            "any"
+          ]
+        },
+        "themes": [
+          "교육/스승",
+          "취미/개인적즐거움"
+        ]
       },
       {
-        "id": 3,
+        "id": 15,
         "question_ko": "진로를 두고 방황하거나 원래 꿈꾸던 길과 다른 방향으로 가게 된 경험이 있나요?",
-        "question_ja": "進路について迷ったり、当初思い描いていた道と違う方向に進んだりした経験はありますか？"
+        "question_ja": "進路について迷ったり、当初思い描いていた道と違う方向に進んだりした経験はありますか？",
+        "applicability": {
+          "requires_marriage": false,
+          "requires_children": false,
+          "career_type": [
+            "any"
+          ]
+        },
+        "themes": [
+          "인생철학/신념"
+        ]
       },
       {
-        "id": 4,
+        "id": 16,
         "question_ko": "시험이나 입시에서 크게 실패했던 경험이 있나요? 그때 마음을 어떻게 다잡으셨나요?",
-        "question_ja": "試験や受験で大きな失敗をした経験はありますか？その時、どのように気持ちを立て直しましたか？"
+        "question_ja": "試験や受験で大きな失敗をした経験はありますか？その時、どのように気持ちを立て直しましたか？",
+        "applicability": {
+          "requires_marriage": false,
+          "requires_children": false,
+          "career_type": [
+            "any"
+          ]
+        },
+        "themes": [
+          "실패와극복"
+        ]
       },
       {
-        "id": 5,
+        "id": 17,
         "question_ko": "고향을 떠나 낯선 곳에서 유학이나 타지 생활을 시작했던 경험이 있나요? 그때 기분이 어땠나요?",
-        "question_ja": "故郷を離れ、見知らぬ土地で留学や下宿生活を始めた経験はありますか？その時どんな気持ちでしたか？"
+        "question_ja": "故郷を離れ、見知らぬ土地で留学や下宿生活を始めた経験はありますか？その時どんな気持ちでしたか？",
+        "applicability": {
+          "requires_marriage": false,
+          "requires_children": false,
+          "career_type": [
+            "any"
+          ]
+        },
+        "themes": [
+          "가족/고향",
+          "국제경험/해외"
+        ]
       },
       {
-        "id": 6,
+        "id": 18,
         "question_ko": "청년 시절 전쟁이나 사회적 격변을 겪으며 삶이 크게 흔들렸던 경험이 있나요?",
-        "question_ja": "青年時代、戦争や社会の激動の中で人生が大きく揺さぶられた経験はありますか？"
+        "question_ja": "青年時代、戦争や社会の激動の中で人生が大きく揺さぶられた経験はありますか？",
+        "applicability": {
+          "requires_marriage": false,
+          "requires_children": false,
+          "career_type": [
+            "any"
+          ]
+        },
+        "themes": [
+          "시대적배경(전쟁·경제위기)"
+        ]
       },
       {
-        "id": 7,
+        "id": 19,
         "question_ko": "평생 마음에 새긴 책이나 사상, 혹은 누군가의 한마디를 만난 경험이 있나요?",
-        "question_ja": "一生心に刻むことになった本や思想、あるいは誰かの一言に出会った経験はありますか？"
+        "question_ja": "一生心に刻むことになった本や思想、あるいは誰かの一言に出会った経験はありますか？",
+        "applicability": {
+          "requires_marriage": false,
+          "requires_children": false,
+          "career_type": [
+            "any"
+          ]
+        },
+        "themes": [
+          "인생철학/신념"
+        ]
       },
       {
-        "id": 8,
+        "id": 20,
         "question_ko": "학창시절 뛰어난 친구나 라이벌을 만나 열등감과 자극을 동시에 느꼈던 경험이 있나요?",
-        "question_ja": "学生時代、優れた友人やライバルに出会い、劣等感と刺激を同時に感じた経験はありますか？"
+        "question_ja": "学生時代、優れた友人やライバルに出会い、劣等感と刺激を同時に感じた経験はありますか？",
+        "applicability": {
+          "requires_marriage": false,
+          "requires_children": false,
+          "career_type": [
+            "any"
+          ]
+        },
+        "themes": [
+          "교육/스승",
+          "인간관계/멘토"
+        ]
       },
       {
-        "id": 9,
+        "id": 21,
         "question_ko": "집안 형편이 어려워 진학을 포기하려 했을 때, 누군가의 도움으로 길이 열린 경험이 있나요?",
-        "question_ja": "家庭の事情で進学を諦めかけた時、誰かの助けで道が開けた経験はありますか？"
+        "question_ja": "家庭の事情で進学を諦めかけた時、誰かの助けで道が開けた経験はありますか？",
+        "applicability": {
+          "requires_marriage": false,
+          "requires_children": false,
+          "career_type": [
+            "any"
+          ]
+        },
+        "themes": [
+          "인생철학/신념"
+        ]
       },
       {
-        "id": 10,
+        "id": 22,
         "question_ko": "처음 해외를 경험했던 순간을 기억하시나요? 그때 세상을 보는 눈이 어떻게 달라졌나요?",
-        "question_ja": "初めて海外を経験した瞬間を覚えていますか？その時、世界を見る目がどう変わりましたか？"
+        "question_ja": "初めて海外を経験した瞬間を覚えていますか？その時、世界を見る目がどう変わりましたか？",
+        "applicability": {
+          "requires_marriage": false,
+          "requires_children": false,
+          "career_type": [
+            "any"
+          ]
+        },
+        "themes": [
+          "국제경험/해외"
+        ]
       },
       {
-        "id": 11,
+        "id": 23,
         "question_ko": "학창시절 처음으로 모임이나 조직을 이끌어본 경험이 있나요? 무엇을 배우셨나요?",
-        "question_ja": "学生時代、初めて団体や組織を率いた経験はありますか？そこから何を学びましたか？"
+        "question_ja": "学生時代、初めて団体や組織を率いた経験はありますか？そこから何を学びましたか？",
+        "applicability": {
+          "requires_marriage": false,
+          "requires_children": false,
+          "career_type": [
+            "any"
+          ]
+        },
+        "themes": [
+          "교육/스승",
+          "리더십/조직관리"
+        ]
       },
       {
-        "id": 12,
+        "id": 24,
         "question_ko": "젊은 시절 다수가 휩쓸리던 흐름에 동참하지 않고 스스로 옳다고 믿는 길을 갔던 경험이 있나요?",
-        "question_ja": "若い頃、周囲の大多数が流される中で、自分が正しいと信じる道を選んだ経験はありますか？"
+        "question_ja": "若い頃、周囲の大多数が流される中で、自分が正しいと信じる道を選んだ経験はありますか？",
+        "applicability": {
+          "requires_marriage": false,
+          "requires_children": false,
+          "career_type": [
+            "any"
+          ]
+        },
+        "themes": [
+          "인생철학/신념"
+        ]
       }
     ]
   },
@@ -139,64 +386,187 @@
     "life_stage_ja": "社会人1年目・入社/創業初期",
     "questions": [
       {
-        "id": 1,
+        "id": 25,
         "question_ko": "첫 직장을 선택하게 된 결정적인 계기는 무엇이었나요?",
-        "question_ja": "最初の就職先を選んだ決定的なきっかけは何でしたか？"
+        "question_ja": "最初の就職先を選んだ決定的なきっかけは何でしたか？",
+        "applicability": {
+          "requires_marriage": false,
+          "requires_children": false,
+          "career_type": [
+            "any"
+          ]
+        },
+        "themes": [
+          "첫직장/입사",
+          "결단의순간"
+        ]
       },
       {
-        "id": 2,
+        "id": 26,
         "question_ko": "사회생활을 처음 시작했을 때 가장 큰 가르침을 준 선배나 상사는 누구였나요? 무엇을 배우셨나요?",
-        "question_ja": "社会人になって最初に大きな教えをくれた先輩や上司は誰でしたか？何を学びましたか？"
+        "question_ja": "社会人になって最初に大きな教えをくれた先輩や上司は誰でしたか？何を学びましたか？",
+        "applicability": {
+          "requires_marriage": false,
+          "requires_children": false,
+          "career_type": [
+            "any"
+          ]
+        },
+        "themes": [
+          "인간관계/멘토"
+        ]
       },
       {
-        "id": 3,
+        "id": 27,
         "question_ko": "신입 시절 저지른 실수 중 가장 크게 혼났던 일과, 그로부터 배운 교훈은 무엇인가요?",
-        "question_ja": "新人時代に犯した失敗の中で一番叱られた出来事と、そこから学んだ教訓は何ですか？"
+        "question_ja": "新人時代に犯した失敗の中で一番叱られた出来事と、そこから学んだ教訓は何ですか？",
+        "applicability": {
+          "requires_marriage": false,
+          "requires_children": false,
+          "career_type": [
+            "any"
+          ]
+        },
+        "themes": [
+          "첫직장/입사"
+        ]
       },
       {
-        "id": 4,
+        "id": 28,
         "question_ko": "기대했던 것과 다른 하찮아 보이는 업무를 맡아 실망했던 경험이 있나요? 그것을 어떻게 받아들이셨나요?",
-        "question_ja": "期待と違う、つまらなく見える仕事を任されて落胆した経験はありますか？それをどう受け止めましたか？"
+        "question_ja": "期待と違う、つまらなく見える仕事を任されて落胆した経験はありますか？それをどう受け止めましたか？",
+        "applicability": {
+          "requires_marriage": false,
+          "requires_children": false,
+          "career_type": [
+            "any"
+          ]
+        },
+        "themes": [
+          "인생철학/신념"
+        ]
       },
       {
-        "id": 5,
+        "id": 29,
         "question_ko": "안정된 직장을 그만두고 창업이나 새로운 도전을 결심했던 순간이 있나요? 무엇이 그 결단을 이끌었나요?",
-        "question_ja": "安定した職を辞めて創業や新しい挑戦を決意した瞬間はありますか？何がその決断を後押ししましたか？"
+        "question_ja": "安定した職を辞めて創業や新しい挑戦を決意した瞬間はありますか？何がその決断を後押ししましたか？",
+        "applicability": {
+          "requires_marriage": false,
+          "requires_children": false,
+          "career_type": [
+            "any"
+          ]
+        },
+        "themes": [
+          "창업",
+          "결단의순간",
+          "리더십/조직관리"
+        ]
       },
       {
-        "id": 6,
+        "id": 30,
         "question_ko": "처음 사업이나 일을 시작했을 때 자금이나 생계 문제로 어려움을 겪은 적이 있나요? 그 고비를 어떻게 넘기셨나요？",
-        "question_ja": "初めて事業や仕事を始めた時、資金や生活の面で苦労した経験はありますか？その峠をどう乗り越えましたか？"
+        "question_ja": "初めて事業や仕事を始めた時、資金や生活の面で苦労した経験はありますか？その峠をどう乗り越えましたか？",
+        "applicability": {
+          "requires_marriage": false,
+          "requires_children": false,
+          "career_type": [
+            "any"
+          ]
+        },
+        "themes": [
+          "인생철학/신념"
+        ]
       },
       {
-        "id": 7,
+        "id": 31,
         "question_ko": "낯선 타지나 해외에서 처음 사회생활을 시작한 경험이 있나요? 어떻게 적응해 나가셨나요?",
-        "question_ja": "見知らぬ土地や海外で初めて社会人生活を始めた経験はありますか？どのように適応していきましたか？"
+        "question_ja": "見知らぬ土地や海外で初めて社会人生活を始めた経験はありますか？どのように適応していきましたか？",
+        "applicability": {
+          "requires_marriage": false,
+          "requires_children": false,
+          "career_type": [
+            "any"
+          ]
+        },
+        "themes": [
+          "국제경험/해외"
+        ]
       },
       {
-        "id": 8,
+        "id": 32,
         "question_ko": "배우자를 처음 만나 청혼했던 순간을 들려주시겠어요?",
-        "question_ja": "配偶者と初めて出会い、プロポーズした瞬間について教えていただけますか？"
+        "question_ja": "配偶者と初めて出会い、プロポーズした瞬間について教えていただけますか？",
+        "applicability": {
+          "requires_marriage": true,
+          "requires_children": false,
+          "career_type": [
+            "any"
+          ]
+        },
+        "themes": [
+          "결혼/배우자"
+        ]
       },
       {
-        "id": 9,
+        "id": 33,
         "question_ko": "우연한 만남이나 뜻밖의 인연으로 지금의 진로가 결정된 경험이 있나요?",
-        "question_ja": "偶然の出会いや思いがけない縁で、今の進路が決まった経験はありますか？"
+        "question_ja": "偶然の出会いや思いがけない縁で、今の進路が決まった経験はありますか？",
+        "applicability": {
+          "requires_marriage": false,
+          "requires_children": false,
+          "career_type": [
+            "any"
+          ]
+        },
+        "themes": [
+          "인간관계/멘토"
+        ]
       },
       {
-        "id": 10,
+        "id": 34,
         "question_ko": "가업을 이을지 다른 길을 갈지 고민했던 경험이 있나요? 어떻게 결정하셨나요?",
-        "question_ja": "家業を継ぐか別の道を行くか悩んだ経験はありますか？どのように決断されましたか？"
+        "question_ja": "家業を継ぐか別の道を行くか悩んだ経験はありますか？どのように決断されましたか？",
+        "applicability": {
+          "requires_marriage": false,
+          "requires_children": false,
+          "career_type": [
+            "any"
+          ]
+        },
+        "themes": [
+          "인생철학/신념"
+        ]
       },
       {
-        "id": 11,
+        "id": 35,
         "question_ko": "여러 번 거절당하면서도 포기하지 않고 계속 도전해 마침내 길을 찾은 경험이 있나요?",
-        "question_ja": "何度も断られながらも諦めずに挑戦し続け、ついに道を見つけた経験はありますか？"
+        "question_ja": "何度も断られながらも諦めずに挑戦し続け、ついに道を見つけた経験はありますか？",
+        "applicability": {
+          "requires_marriage": false,
+          "requires_children": false,
+          "career_type": [
+            "any"
+          ]
+        },
+        "themes": [
+          "인생철학/신념"
+        ]
       },
       {
-        "id": 12,
+        "id": 36,
         "question_ko": "사회 초년생 시절, 낯선 부서나 현장에 던져져 밑바닥부터 몸으로 배웠던 경험이 있나요?",
-        "question_ja": "社会人になりたての頃、不慣れな部署や現場に放り込まれ、一から体で学んだ経験はありますか？"
+        "question_ja": "社会人になりたての頃、不慣れな部署や現場に放り込まれ、一から体で学んだ経験はありますか？",
+        "applicability": {
+          "requires_marriage": false,
+          "requires_children": false,
+          "career_type": [
+            "any"
+          ]
+        },
+        "themes": [
+          "인생철학/신념"
+        ]
       }
     ]
   },
@@ -206,64 +576,187 @@
     "life_stage_ja": "キャリア形成期・挑戦と失敗",
     "questions": [
       {
-        "id": 1,
+        "id": 37,
         "question_ko": "낯선 부서나 해외로 갑자기 발령받아 완전히 새로운 환경에 적응해야 했던 경험이 있나요?",
-        "question_ja": "不慣れな部署や海外へ突然異動になり、まったく新しい環境に適応しなければならなかった経験はありますか？"
+        "question_ja": "不慣れな部署や海外へ突然異動になり、まったく新しい環境に適応しなければならなかった経験はありますか？",
+        "applicability": {
+          "requires_marriage": false,
+          "requires_children": false,
+          "career_type": [
+            "any"
+          ]
+        },
+        "themes": [
+          "국제경험/해외"
+        ]
       },
       {
-        "id": 2,
+        "id": 38,
         "question_ko": "심혈을 기울인 결과물이 냉정하게 거절당했던 경험이 있나요? 어떻게 다시 일어서셨나요?",
-        "question_ja": "心血を注いだ成果が冷たく拒絶された経験はありますか？どのように立ち直りましたか？"
+        "question_ja": "心血を注いだ成果が冷たく拒絶された経験はありますか？どのように立ち直りましたか？",
+        "applicability": {
+          "requires_marriage": false,
+          "requires_children": false,
+          "career_type": [
+            "any"
+          ]
+        },
+        "themes": [
+          "인생철학/신념"
+        ]
       },
       {
-        "id": 3,
+        "id": 39,
         "question_ko": "우연한 관찰이나 일상 속 발견에서 새로운 아이디어를 얻은 경험이 있나요?",
-        "question_ja": "何気ない観察や日常の中の発見から、新しいアイデアを得た経験はありますか？"
+        "question_ja": "何気ない観察や日常の中の発見から、新しいアイデアを得た経験はありますか？",
+        "applicability": {
+          "requires_marriage": false,
+          "requires_children": false,
+          "career_type": [
+            "any"
+          ]
+        },
+        "themes": [
+          "혁신/기술"
+        ]
       },
       {
-        "id": 4,
+        "id": 40,
         "question_ko": "조직에서 오랫동안 소외되거나 인정받지 못한다고 느꼈던 시기가 있나요? 그때 어떻게 견뎌내셨나요?",
-        "question_ja": "組織の中で長く冷遇されたり、認められないと感じたりした時期はありますか？その時どう耐えましたか？"
+        "question_ja": "組織の中で長く冷遇されたり、認められないと感じたりした時期はありますか？その時どう耐えましたか？",
+        "applicability": {
+          "requires_marriage": false,
+          "requires_children": false,
+          "career_type": [
+            "any"
+          ]
+        },
+        "themes": [
+          "리더십/조직관리"
+        ]
       },
       {
-        "id": 5,
+        "id": 41,
         "question_ko": "일에 몰두하느라 건강을 크게 해친 경험이 있나요?",
-        "question_ja": "仕事に没頭するあまり、健康を大きく損なった経験はありますか？"
+        "question_ja": "仕事に没頭するあまり、健康を大きく損なった経験はありますか？",
+        "applicability": {
+          "requires_marriage": false,
+          "requires_children": false,
+          "career_type": [
+            "any"
+          ]
+        },
+        "themes": [
+          "건강/투병"
+        ]
       },
       {
-        "id": 6,
+        "id": 42,
         "question_ko": "스스로 내린 판단이 큰 실수로 이어져 책임을 져야 했던 경험이 있나요?",
-        "question_ja": "自らの判断が大きな過ちにつながり、責任を取らなければならなかった経験はありますか？"
+        "question_ja": "自らの判断が大きな過ちにつながり、責任を取らなければならなかった経験はありますか？",
+        "applicability": {
+          "requires_marriage": false,
+          "requires_children": false,
+          "career_type": [
+            "any"
+          ]
+        },
+        "themes": [
+          "인생철학/신념"
+        ]
       },
       {
-        "id": 7,
+        "id": 43,
         "question_ko": "상사나 조직의 방침이 자신의 신념과 부딪혔을 때, 어떻게 맞서거나 지켜냈나요?",
-        "question_ja": "上司や組織の方針が自分の信念とぶつかった時、どのように立ち向かい、守り抜きましたか？"
+        "question_ja": "上司や組織の方針が自分の信念とぶつかった時、どのように立ち向かい、守り抜きましたか？",
+        "applicability": {
+          "requires_marriage": false,
+          "requires_children": false,
+          "career_type": [
+            "any"
+          ]
+        },
+        "themes": [
+          "인간관계/멘토",
+          "리더십/조직관리"
+        ]
       },
       {
-        "id": 8,
+        "id": 44,
         "question_ko": "완전히 낯선 분야로 옮겨가 처음부터 다시 배워야 했던 경험이 있나요? 가장 힘들었던 순간은 언제였나요?",
-        "question_ja": "まったく未知の分野に移り、一から学び直さなければならなかった経験はありますか？一番つらかった瞬間はいつでしたか？"
+        "question_ja": "まったく未知の分野に移り、一から学び直さなければならなかった経験はありますか？一番つらかった瞬間はいつでしたか？",
+        "applicability": {
+          "requires_marriage": false,
+          "requires_children": false,
+          "career_type": [
+            "any"
+          ]
+        },
+        "themes": [
+          "인생철학/신념"
+        ]
       },
       {
-        "id": 9,
+        "id": 45,
         "question_ko": "해외에서 일하며 언어나 문화의 벽에 부딪혔던 경험이 있나요? 그 벽을 어떻게 넘으셨나요?",
-        "question_ja": "海外で働きながら言葉や文化の壁にぶつかった経験はありますか？その壁をどう乗り越えましたか？"
+        "question_ja": "海外で働きながら言葉や文化の壁にぶつかった経験はありますか？その壁をどう乗り越えましたか？",
+        "applicability": {
+          "requires_marriage": false,
+          "requires_children": false,
+          "career_type": [
+            "any"
+          ]
+        },
+        "themes": [
+          "국제경험/해외"
+        ]
       },
       {
-        "id": 10,
+        "id": 46,
         "question_ko": "한창 바쁘게 일하던 시기에 가족에게 큰 사고나 위기가 닥쳤을 때, 어떻게 대처하셨나요?",
-        "question_ja": "仕事に追われていた時期に、家族に大きな事故や危機が起きた時、どう対処しましたか？"
+        "question_ja": "仕事に追われていた時期に、家族に大きな事故や危機が起きた時、どう対処しましたか？",
+        "applicability": {
+          "requires_marriage": false,
+          "requires_children": false,
+          "career_type": [
+            "any"
+          ]
+        },
+        "themes": [
+          "가족/고향",
+          "실패와극복"
+        ]
       },
       {
-        "id": 11,
+        "id": 47,
         "question_ko": "조직이 위기에 처했을 때, 아무도 나서지 않는 일에 스스로 나서서 해결한 경험이 있나요?",
-        "question_ja": "組織が危機に陥った時、誰も手を挙げない仕事に自ら名乗り出て解決した経験はありますか？"
+        "question_ja": "組織が危機に陥った時、誰も手を挙げない仕事に自ら名乗り出て解決した経験はありますか？",
+        "applicability": {
+          "requires_marriage": false,
+          "requires_children": false,
+          "career_type": [
+            "any"
+          ]
+        },
+        "themes": [
+          "실패와극복",
+          "리더십/조직관리"
+        ]
       },
       {
-        "id": 12,
+        "id": 48,
         "question_ko": "여러 사람의 반대에도 불구하고 자신의 신념을 지켰던 경험이 있나요?",
-        "question_ja": "多くの人の反対にもかかわらず、自分の信念を貫いた経験はありますか？"
+        "question_ja": "多くの人の反対にもかかわらず、自分の信念を貫いた経験はありますか？",
+        "applicability": {
+          "requires_marriage": false,
+          "requires_children": false,
+          "career_type": [
+            "any"
+          ]
+        },
+        "themes": [
+          "인생철학/신념"
+        ]
       }
     ]
   },
@@ -273,69 +766,791 @@
     "life_stage_ja": "絶頂期・リーダーシップと決断",
     "questions": [
       {
-        "id": 1,
+        "id": 49,
         "question_ko": "조직의 리더 자리를 처음 맡게 되었을 때 어떤 부담과 각오를 느끼셨나요?",
-        "question_ja": "組織のリーダーの座を初めて任された時、どんな重圧と覚悟を感じましたか？"
+        "question_ja": "組織のリーダーの座を初めて任された時、どんな重圧と覚悟を感じましたか？",
+        "applicability": {
+          "requires_marriage": false,
+          "requires_children": false,
+          "career_type": [
+            "any"
+          ]
+        },
+        "themes": [
+          "결단의순간",
+          "리더십/조직관리"
+        ]
       },
       {
-        "id": 2,
+        "id": 50,
         "question_ko": "업계나 조직의 상식을 깨는 새로운 방식을 시도했던 결정적 순간이 있나요? 주변의 반응은 어땠나요?",
-        "question_ja": "業界や組織の常識を破る新しいやり方を試みた決定的な瞬間はありますか？周囲の反応はどうでしたか？"
+        "question_ja": "業界や組織の常識を破る新しいやり方を試みた決定的な瞬間はありますか？周囲の反応はどうでしたか？",
+        "applicability": {
+          "requires_marriage": false,
+          "requires_children": false,
+          "career_type": [
+            "any"
+          ]
+        },
+        "themes": [
+          "리더십/조직관리",
+          "혁신/기술"
+        ]
       },
       {
-        "id": 3,
+        "id": 51,
         "question_ko": "위기에 처한 조직을 맡아 되살렸던 경험이 있나요? 가장 먼저 무엇에 손을 대셨나요?",
-        "question_ja": "危機に瀕した組織を任され、立て直した経験はありますか？最初に何に手を付けましたか？"
+        "question_ja": "危機に瀕した組織を任され、立て直した経験はありますか？最初に何に手を付けましたか？",
+        "applicability": {
+          "requires_marriage": false,
+          "requires_children": false,
+          "career_type": [
+            "any"
+          ]
+        },
+        "themes": [
+          "실패와극복",
+          "리더십/조직관리"
+        ]
       },
       {
-        "id": 4,
+        "id": 52,
         "question_ko": "많은 사람의 삶이나 생계에 영향을 미치는, 가장 힘든 결정을 내려야 했던 순간이 있나요?",
-        "question_ja": "多くの人の生活や生計に影響する、最も辛い決断を下さなければならなかった瞬間はありますか？"
+        "question_ja": "多くの人の生活や生計に影響する、最も辛い決断を下さなければならなかった瞬間はありますか？",
+        "applicability": {
+          "requires_marriage": false,
+          "requires_children": false,
+          "career_type": [
+            "any"
+          ]
+        },
+        "themes": [
+          "결단의순간"
+        ]
       },
       {
-        "id": 5,
+        "id": 53,
         "question_ko": "조직에 오래 뿌리내린 관행이 잘못됐다고 판단해, 거센 반발을 무릅쓰고 개혁을 밀어붙인 경험이 있나요?",
-        "question_ja": "組織に根付いた慣行が間違っていると判断し、強い反発を覚悟の上で改革を推し進めた経験はありますか？"
+        "question_ja": "組織に根付いた慣行が間違っていると判断し、強い反発を覚悟の上で改革を推し進めた経験はありますか？",
+        "applicability": {
+          "requires_marriage": false,
+          "requires_children": false,
+          "career_type": [
+            "any"
+          ]
+        },
+        "themes": [
+          "리더십/조직관리"
+        ]
       },
       {
-        "id": 6,
+        "id": 54,
         "question_ko": "후배나 부하 직원에게 과감히 권한과 기회를 맡겼던 경험이 있나요?",
-        "question_ja": "後輩や部下に思い切って権限とチャンスを委ねた経験はありますか？"
+        "question_ja": "後輩や部下に思い切って権限とチャンスを委ねた経験はありますか？",
+        "applicability": {
+          "requires_marriage": false,
+          "requires_children": false,
+          "career_type": [
+            "any"
+          ]
+        },
+        "themes": [
+          "리더십/조직관리"
+        ]
       },
       {
-        "id": 7,
+        "id": 55,
         "question_ko": "서로 다른 문화나 배경을 가진 사람들을 하나의 조직으로 통합해 이끌었던 경험이 있나요?",
-        "question_ja": "異なる文化や背景を持つ人々を一つの組織にまとめ、率いた経験はありますか？"
+        "question_ja": "異なる文化や背景を持つ人々を一つの組織にまとめ、率いた経験はありますか？",
+        "applicability": {
+          "requires_marriage": false,
+          "requires_children": false,
+          "career_type": [
+            "any"
+          ]
+        },
+        "themes": [
+          "리더십/조직관리"
+        ]
       },
       {
-        "id": 8,
+        "id": 56,
         "question_ko": "눈앞의 손해를 감수하면서도 신뢰나 원칙을 지켰던 경험이 있나요? 그 선택은 나중에 어떤 결실을 맺었나요?",
-        "question_ja": "目先の損失を覚悟してでも信頼や原則を守った経験はありますか？その選択は後にどんな実を結びましたか？"
+        "question_ja": "目先の損失を覚悟してでも信頼や原則を守った経験はありますか？その選択は後にどんな実を結びましたか？",
+        "applicability": {
+          "requires_marriage": false,
+          "requires_children": false,
+          "career_type": [
+            "any"
+          ]
+        },
+        "themes": [
+          "결단의순간",
+          "인생철학/신념"
+        ]
       },
       {
-        "id": 9,
+        "id": 57,
         "question_ko": "지금까지 걸어오신 길을 돌아볼 때, 인생에서 가장 큰 전환점이 되었던 결단은 무엇이었나요?",
-        "question_ja": "これまでの道のりを振り返って、人生で最大の転換点となった決断は何でしたか？"
+        "question_ja": "これまでの道のりを振り返って、人生で最大の転換点となった決断は何でしたか？",
+        "applicability": {
+          "requires_marriage": false,
+          "requires_children": false,
+          "career_type": [
+            "any"
+          ]
+        },
+        "themes": [
+          "결단의순간"
+        ]
       },
       {
-        "id": 10,
+        "id": 58,
         "question_ko": "후계자나 후임자를 정할 때 가장 중요하게 생각한 기준은 무엇이었나요?",
-        "question_ja": "後継者や後任を決める時、最も重視した基準は何でしたか？"
+        "question_ja": "後継者や後任を決める時、最も重視した基準は何でしたか？",
+        "applicability": {
+          "requires_marriage": false,
+          "requires_children": false,
+          "career_type": [
+            "any"
+          ]
+        },
+        "themes": [
+          "후계자/승계"
+        ]
       },
       {
-        "id": 11,
+        "id": 59,
         "question_ko": "국제적인 협상이나 파트너십을 성사시키기 위해 애썼던 경험이 있나요?",
-        "question_ja": "国際的な交渉やパートナーシップを成立させるために尽力した経験はありますか？"
+        "question_ja": "国際的な交渉やパートナーシップを成立させるために尽力した経験はありますか？",
+        "applicability": {
+          "requires_marriage": false,
+          "requires_children": false,
+          "career_type": [
+            "any"
+          ]
+        },
+        "themes": [
+          "국제경험/해외"
+        ]
       },
       {
-        "id": 12,
+        "id": 60,
         "question_ko": "자신의 제안이 처음엔 받아들여지지 않았지만, 포기하지 않고 끈질기게 준비하여 결국 실현시킨 경험이 있나요?",
-        "question_ja": "自分の提案が最初は受け入れられなかったものの、諦めずに粘り強く準備してついに実現させた経験はありますか？"
+        "question_ja": "自分の提案が最初は受け入れられなかったものの、諦めずに粘り強く準備してついに実現させた経験はありますか？",
+        "applicability": {
+          "requires_marriage": false,
+          "requires_children": false,
+          "career_type": [
+            "any"
+          ]
+        },
+        "themes": [
+          "인생철학/신념"
+        ]
       },
       {
-        "id": 13,
+        "id": 61,
         "question_ko": "오랫동안 애정을 쏟았던 일이나 조직을 결국 정리하거나 떠나보내야 했던 결정이 있었나요?",
-        "question_ja": "長年愛情を注いできた仕事や組織を、結局整理したり手放したりしなければならなかった決断はありましたか？"
+        "question_ja": "長年愛情を注いできた仕事や組織を、結局整理したり手放したりしなければならなかった決断はありましたか？",
+        "applicability": {
+          "requires_marriage": false,
+          "requires_children": false,
+          "career_type": [
+            "any"
+          ]
+        },
+        "themes": [
+          "리더십/조직관리"
+        ]
+      },
+      {
+        "id": 107,
+        "question_ko": "집안 살림이나 대소사를 온전히 책임지게 되었을 때 어떤 부담과 각오를 느끼셨나요?",
+        "question_ja": "家事や家庭の大事な決め事をすべて任されるようになった時、どんな重圧と覚悟を感じましたか？",
+        "applicability": {
+          "requires_marriage": false,
+          "requires_children": false,
+          "career_type": [
+            "homemaker"
+          ]
+        },
+        "themes": [
+          "결단의순간",
+          "리더십/조직관리"
+        ],
+        "persona_variant_of": 49
+      },
+      {
+        "id": 108,
+        "question_ko": "가게나 사업을 온전히 홀로 책임지고 이끌어야 했을 때 어떤 부담과 각오를 느끼셨나요?",
+        "question_ja": "店や事業を一人ですべて背負って導かなければならなかった時、どんな重圧と覚悟を感じましたか？",
+        "applicability": {
+          "requires_marriage": false,
+          "requires_children": false,
+          "career_type": [
+            "self_employed"
+          ]
+        },
+        "themes": [
+          "결단의순간",
+          "리더십/조직관리"
+        ],
+        "persona_variant_of": 49
+      },
+      {
+        "id": 109,
+        "question_ko": "농사일과 집안의 생계를 온전히 책임지게 되었을 때 어떤 부담과 각오를 느끼셨나요?",
+        "question_ja": "農作業と家族の暮らしをすべて背負うことになった時、どんな重圧と覚悟を感じましたか？",
+        "applicability": {
+          "requires_marriage": false,
+          "requires_children": false,
+          "career_type": [
+            "farmer"
+          ]
+        },
+        "themes": [
+          "결단의순간",
+          "리더십/조직관리"
+        ],
+        "persona_variant_of": 49
+      },
+      {
+        "id": 110,
+        "question_ko": "집안일이나 가족을 대하는 방식에서 남들과 다른 자신만의 방법을 시도했던 결정적 순간이 있나요? 주변의 반응은 어땠나요?",
+        "question_ja": "家事や家族との接し方で、人と違う自分なりのやり方を試みた決定的な瞬間はありますか？周囲の反応はどうでしたか？",
+        "applicability": {
+          "requires_marriage": false,
+          "requires_children": false,
+          "career_type": [
+            "homemaker"
+          ]
+        },
+        "themes": [
+          "리더십/조직관리",
+          "혁신/기술"
+        ],
+        "persona_variant_of": 50
+      },
+      {
+        "id": 111,
+        "question_ko": "장사나 일하는 방식에서 업계의 상식을 깨는 새로운 시도를 했던 결정적 순간이 있나요? 주변의 반응은 어땠나요?",
+        "question_ja": "商売や仕事のやり方で、業界の常識を破る新しい試みをした決定的な瞬間はありますか？周囲の反応はどうでしたか？",
+        "applicability": {
+          "requires_marriage": false,
+          "requires_children": false,
+          "career_type": [
+            "self_employed"
+          ]
+        },
+        "themes": [
+          "리더십/조직관리",
+          "혁신/기술"
+        ],
+        "persona_variant_of": 50
+      },
+      {
+        "id": 112,
+        "question_ko": "마을이나 농사의 오랜 방식과 다른 새로운 방법을 시도했던 결정적 순간이 있나요? 주변의 반응은 어땠나요?",
+        "question_ja": "村や農業の昔ながらのやり方とは違う新しい方法を試みた決定的な瞬間はありますか？周囲の反応はどうでしたか？",
+        "applicability": {
+          "requires_marriage": false,
+          "requires_children": false,
+          "career_type": [
+            "farmer"
+          ]
+        },
+        "themes": [
+          "리더십/조직관리",
+          "혁신/기술"
+        ],
+        "persona_variant_of": 50
+      },
+      {
+        "id": 113,
+        "question_ko": "어려움에 처한 집안 살림이나 가족의 위기를 도맡아 되살렸던 경험이 있나요? 가장 먼저 무엇에 손을 대셨나요?",
+        "question_ja": "苦しい状況にあった家計や家族の危機を一手に引き受けて立て直した経験はありますか？最初に何に手を付けましたか？",
+        "applicability": {
+          "requires_marriage": false,
+          "requires_children": false,
+          "career_type": [
+            "homemaker"
+          ]
+        },
+        "themes": [
+          "실패와극복",
+          "리더십/조직관리"
+        ],
+        "persona_variant_of": 51
+      },
+      {
+        "id": 114,
+        "question_ko": "어려움에 처한 가게나 사업을 맡아 되살렸던 경험이 있나요? 가장 먼저 무엇에 손을 대셨나요?",
+        "question_ja": "苦しい状況にあった店や事業を任され、立て直した経験はありますか？最初に何に手を付けましたか？",
+        "applicability": {
+          "requires_marriage": false,
+          "requires_children": false,
+          "career_type": [
+            "self_employed"
+          ]
+        },
+        "themes": [
+          "실패와극복",
+          "리더십/조직관리"
+        ],
+        "persona_variant_of": 51
+      },
+      {
+        "id": 115,
+        "question_ko": "형편이 어려워진 농사나 집안을 맡아 다시 일으켜 세웠던 경험이 있나요? 가장 먼저 무엇에 손을 대셨나요?",
+        "question_ja": "苦しくなった農業や家計を任され、再び立て直した経験はありますか？最初に何に手を付けましたか？",
+        "applicability": {
+          "requires_marriage": false,
+          "requires_children": false,
+          "career_type": [
+            "farmer"
+          ]
+        },
+        "themes": [
+          "실패와극복",
+          "리더십/조직관리"
+        ],
+        "persona_variant_of": 51
+      },
+      {
+        "id": 116,
+        "question_ko": "가족 전체의 삶에 영향을 미치는, 가장 힘든 결정을 내려야 했던 순간이 있나요?",
+        "question_ja": "家族全員の暮らしに影響する、最も辛い決断を下さなければならなかった瞬間はありますか？",
+        "applicability": {
+          "requires_marriage": false,
+          "requires_children": false,
+          "career_type": [
+            "homemaker"
+          ]
+        },
+        "themes": [
+          "결단의순간"
+        ],
+        "persona_variant_of": 52
+      },
+      {
+        "id": 117,
+        "question_ko": "함께 일하는 사람들의 생계에 영향을 미치는, 가장 힘든 결정을 내려야 했던 순간이 있나요?",
+        "question_ja": "一緒に働く人たちの生活に影響する、最も辛い決断を下さなければならなかった瞬間はありますか？",
+        "applicability": {
+          "requires_marriage": false,
+          "requires_children": false,
+          "career_type": [
+            "self_employed"
+          ]
+        },
+        "themes": [
+          "결단의순간"
+        ],
+        "persona_variant_of": 52
+      },
+      {
+        "id": 118,
+        "question_ko": "온 가족과 일꾼들의 생계에 영향을 미치는, 가장 힘든 결정을 내려야 했던 순간이 있나요?",
+        "question_ja": "家族や手伝ってくれる人たちの生活に影響する、最も辛い決断を下さなければならなかった瞬間はありますか？",
+        "applicability": {
+          "requires_marriage": false,
+          "requires_children": false,
+          "career_type": [
+            "farmer"
+          ]
+        },
+        "themes": [
+          "결단의순간"
+        ],
+        "persona_variant_of": 52
+      },
+      {
+        "id": 119,
+        "question_ko": "집안에 오래 내려오던 방식이 잘못됐다고 판단해, 반대를 무릅쓰고 바꿔나간 경험이 있나요?",
+        "question_ja": "家に昔から伝わるやり方が間違っていると判断し、反対を押し切って変えていった経験はありますか？",
+        "applicability": {
+          "requires_marriage": false,
+          "requires_children": false,
+          "career_type": [
+            "homemaker"
+          ]
+        },
+        "themes": [
+          "리더십/조직관리"
+        ],
+        "persona_variant_of": 53
+      },
+      {
+        "id": 120,
+        "question_ko": "가게나 일터에 오래 뿌리내린 방식이 잘못됐다고 판단해, 거센 반발을 무릅쓰고 바꿔나간 경험이 있나요?",
+        "question_ja": "店や職場に根付いた慣行が間違っていると判断し、強い反発を覚悟の上で変えていった経験はありますか？",
+        "applicability": {
+          "requires_marriage": false,
+          "requires_children": false,
+          "career_type": [
+            "self_employed"
+          ]
+        },
+        "themes": [
+          "리더십/조직관리"
+        ],
+        "persona_variant_of": 53
+      },
+      {
+        "id": 121,
+        "question_ko": "마을이나 농사에 오래 뿌리내린 관행이 잘못됐다고 판단해, 반발을 무릅쓰고 새로운 방식을 밀어붙인 경험이 있나요?",
+        "question_ja": "村や農業に根付いた慣行が間違っていると判断し、反発を覚悟の上で新しいやり方を推し進めた経験はありますか？",
+        "applicability": {
+          "requires_marriage": false,
+          "requires_children": false,
+          "career_type": [
+            "farmer"
+          ]
+        },
+        "themes": [
+          "리더십/조직관리"
+        ],
+        "persona_variant_of": 53
+      },
+      {
+        "id": 122,
+        "question_ko": "자녀나 며느리·사위에게 집안일이나 중요한 결정을 과감히 맡겼던 경험이 있나요?",
+        "question_ja": "子どもや嫁・婿に、家のことや大事な決定を思い切って任せた経験はありますか？",
+        "applicability": {
+          "requires_marriage": false,
+          "requires_children": false,
+          "career_type": [
+            "homemaker"
+          ]
+        },
+        "themes": [
+          "리더십/조직관리"
+        ],
+        "persona_variant_of": 54
+      },
+      {
+        "id": 123,
+        "question_ko": "직원이나 후계자에게 가게·사업의 중요한 일을 과감히 맡겼던 경험이 있나요?",
+        "question_ja": "従業員や後継者に、店や事業の大事な仕事を思い切って任せた経験はありますか？",
+        "applicability": {
+          "requires_marriage": false,
+          "requires_children": false,
+          "career_type": [
+            "self_employed"
+          ]
+        },
+        "themes": [
+          "리더십/조직관리"
+        ],
+        "persona_variant_of": 54
+      },
+      {
+        "id": 124,
+        "question_ko": "자녀나 일꾼에게 농사일의 중요한 부분을 과감히 맡겼던 경험이 있나요?",
+        "question_ja": "子どもや手伝ってくれる人に、農作業の大事な部分を思い切って任せた経験はありますか？",
+        "applicability": {
+          "requires_marriage": false,
+          "requires_children": false,
+          "career_type": [
+            "farmer"
+          ]
+        },
+        "themes": [
+          "리더십/조직관리"
+        ],
+        "persona_variant_of": 54
+      },
+      {
+        "id": 125,
+        "question_ko": "서로 다른 배경(고향, 성격 등)을 가진 가족 구성원들을 하나로 화합시키며 이끌었던 경험이 있나요?",
+        "question_ja": "育った環境や性格の異なる家族の一人一人をまとめ、和を築きながら導いた経験はありますか？",
+        "applicability": {
+          "requires_marriage": false,
+          "requires_children": false,
+          "career_type": [
+            "homemaker"
+          ]
+        },
+        "themes": [
+          "리더십/조직관리"
+        ],
+        "persona_variant_of": 55
+      },
+      {
+        "id": 126,
+        "question_ko": "서로 다른 배경을 가진 직원이나 동업자들을 하나로 이끌었던 경험이 있나요?",
+        "question_ja": "背景の異なる従業員や共同経営者たちを一つにまとめて導いた経験はありますか？",
+        "applicability": {
+          "requires_marriage": false,
+          "requires_children": false,
+          "career_type": [
+            "self_employed"
+          ]
+        },
+        "themes": [
+          "리더십/조직관리"
+        ],
+        "persona_variant_of": 55
+      },
+      {
+        "id": 127,
+        "question_ko": "마을이나 일손을 돕는 서로 다른 사람들을 하나로 화합시켜 이끌었던 경험이 있나요?",
+        "question_ja": "村や手伝いに来る様々な人たちをまとめて和を築きながら導いた経験はありますか？",
+        "applicability": {
+          "requires_marriage": false,
+          "requires_children": false,
+          "career_type": [
+            "farmer"
+          ]
+        },
+        "themes": [
+          "리더십/조직관리"
+        ],
+        "persona_variant_of": 55
+      },
+      {
+        "id": 128,
+        "question_ko": "집안 살림에서 눈앞의 이익보다 신뢰나 원칙을 지키는 쪽을 선택했던 경험이 있나요? 그 선택은 나중에 어떤 결실을 맺었나요?",
+        "question_ja": "家計において目先の利益より信頼や原則を守る道を選んだ経験はありますか？その選択は後にどんな実を結びましたか？",
+        "applicability": {
+          "requires_marriage": false,
+          "requires_children": false,
+          "career_type": [
+            "homemaker"
+          ]
+        },
+        "themes": [
+          "결단의순간",
+          "인생철학/신념"
+        ],
+        "persona_variant_of": 56
+      },
+      {
+        "id": 129,
+        "question_ko": "장사에서 눈앞의 손해를 감수하면서도 신뢰나 원칙을 지켰던 경험이 있나요? 그 선택은 나중에 어떤 결실을 맺었나요?",
+        "question_ja": "商売において目先の損失を覚悟してでも信頼や原則を守った経験はありますか？その選択は後にどんな実を結びましたか？",
+        "applicability": {
+          "requires_marriage": false,
+          "requires_children": false,
+          "career_type": [
+            "self_employed"
+          ]
+        },
+        "themes": [
+          "결단의순간",
+          "인생철학/신념"
+        ],
+        "persona_variant_of": 56
+      },
+      {
+        "id": 130,
+        "question_ko": "농사나 마을 일에서 눈앞의 손해를 감수하면서도 신뢰나 원칙을 지켰던 경험이 있나요? 그 선택은 나중에 어떤 결실을 맺었나요?",
+        "question_ja": "農業や村のことで目先の損失を覚悟してでも信頼や原則を守った経験はありますか？その選択は後にどんな実を結びましたか？",
+        "applicability": {
+          "requires_marriage": false,
+          "requires_children": false,
+          "career_type": [
+            "farmer"
+          ]
+        },
+        "themes": [
+          "결단의순간",
+          "인생철학/신념"
+        ],
+        "persona_variant_of": 56
+      },
+      {
+        "id": 131,
+        "question_ko": "살림이나 집안의 대소사를 물려줄 사람(자녀, 며느리 등)을 정할 때 가장 중요하게 생각한 기준은 무엇이었나요?",
+        "question_ja": "家のことや大事な役目を託す相手（子どもや嫁など）を決める時、最も重視した基準は何でしたか？",
+        "applicability": {
+          "requires_marriage": false,
+          "requires_children": false,
+          "career_type": [
+            "homemaker"
+          ]
+        },
+        "themes": [
+          "후계자/승계"
+        ],
+        "persona_variant_of": 58
+      },
+      {
+        "id": 132,
+        "question_ko": "가게나 사업을 물려줄 후계자를 정할 때 가장 중요하게 생각한 기준은 무엇이었나요?",
+        "question_ja": "店や事業を継がせる後継者を決める時、最も重視した基準は何でしたか？",
+        "applicability": {
+          "requires_marriage": false,
+          "requires_children": false,
+          "career_type": [
+            "self_employed"
+          ]
+        },
+        "themes": [
+          "후계자/승계"
+        ],
+        "persona_variant_of": 58
+      },
+      {
+        "id": 133,
+        "question_ko": "농사나 땅을 물려줄 사람을 정할 때 가장 중요하게 생각한 기준은 무엇이었나요?",
+        "question_ja": "農地や農業を継がせる相手を決める時、最も重視した基準は何でしたか？",
+        "applicability": {
+          "requires_marriage": false,
+          "requires_children": false,
+          "career_type": [
+            "farmer"
+          ]
+        },
+        "themes": [
+          "후계자/승계"
+        ],
+        "persona_variant_of": 58
+      },
+      {
+        "id": 134,
+        "question_ko": "낯선 사람(사돈, 며느리·사위 집안 등)과 신뢰를 쌓고 좋은 관계를 만들기 위해 애썼던 경험이 있나요?",
+        "question_ja": "見知らぬ相手（親戚筋、嫁・婿の家族など）と信頼を築き、良い関係を作るために努めた経験はありますか？",
+        "applicability": {
+          "requires_marriage": false,
+          "requires_children": false,
+          "career_type": [
+            "homemaker"
+          ]
+        },
+        "themes": [
+          "국제경험/해외"
+        ],
+        "persona_variant_of": 59
+      },
+      {
+        "id": 135,
+        "question_ko": "거래처나 낯선 상대와 중요한 협상을 성사시키기 위해 애썼던 경험이 있나요?",
+        "question_ja": "取引先や見知らぬ相手と大事な交渉をまとめるために努めた経験はありますか？",
+        "applicability": {
+          "requires_marriage": false,
+          "requires_children": false,
+          "career_type": [
+            "self_employed"
+          ]
+        },
+        "themes": [
+          "국제경험/해외"
+        ],
+        "persona_variant_of": 59
+      },
+      {
+        "id": 136,
+        "question_ko": "유통업자나 다른 지역 사람들과 거래·협력을 성사시키기 위해 애썼던 경험이 있나요?",
+        "question_ja": "仲買人や他の地域の人たちと取引・協力をまとめるために努めた経験はありますか？",
+        "applicability": {
+          "requires_marriage": false,
+          "requires_children": false,
+          "career_type": [
+            "farmer"
+          ]
+        },
+        "themes": [
+          "국제경험/해외"
+        ],
+        "persona_variant_of": 59
+      },
+      {
+        "id": 137,
+        "question_ko": "가족들에게 처음엔 반대당했던 생각을, 포기하지 않고 끈질기게 설득해 결국 받아들여지게 만든 경험이 있나요?",
+        "question_ja": "家族に最初は反対されていた考えを、諦めずに粘り強く説得して受け入れてもらった経験はありますか？",
+        "applicability": {
+          "requires_marriage": false,
+          "requires_children": false,
+          "career_type": [
+            "homemaker"
+          ]
+        },
+        "themes": [
+          "인생철학/신념"
+        ],
+        "persona_variant_of": 60
+      },
+      {
+        "id": 138,
+        "question_ko": "거래처나 손님에게 처음엔 거절당했던 제안을, 포기하지 않고 끈질기게 준비해 결국 성사시킨 경험이 있나요?",
+        "question_ja": "取引先やお客様に最初は断られていた提案を、諦めずに粘り強く準備して実現させた経験はありますか？",
+        "applicability": {
+          "requires_marriage": false,
+          "requires_children": false,
+          "career_type": [
+            "self_employed"
+          ]
+        },
+        "themes": [
+          "인생철학/신념"
+        ],
+        "persona_variant_of": 60
+      },
+      {
+        "id": 139,
+        "question_ko": "마을 사람들에게 처음엔 받아들여지지 않았던 방법을, 포기하지 않고 끈질기게 시도해 결국 인정받은 경험이 있나요?",
+        "question_ja": "村の人たちに最初は受け入れられなかったやり方を、諦めずに粘り強く試みて認めてもらった経験はありますか？",
+        "applicability": {
+          "requires_marriage": false,
+          "requires_children": false,
+          "career_type": [
+            "farmer"
+          ]
+        },
+        "themes": [
+          "인생철학/신념"
+        ],
+        "persona_variant_of": 60
+      },
+      {
+        "id": 140,
+        "question_ko": "오랫동안 정성을 쏟았던 집안일이나 살림의 방식을 결국 내려놓거나 바꿔야 했던 순간이 있었나요?",
+        "question_ja": "長年心を込めてきた家事や暮らしのやり方を、結局手放したり変えたりしなければならなかった瞬間はありましたか？",
+        "applicability": {
+          "requires_marriage": false,
+          "requires_children": false,
+          "career_type": [
+            "homemaker"
+          ]
+        },
+        "themes": [
+          "리더십/조직관리"
+        ],
+        "persona_variant_of": 61
+      },
+      {
+        "id": 141,
+        "question_ko": "오랫동안 애정을 쏟았던 가게나 일을 결국 정리하거나 접어야 했던 결정이 있었나요?",
+        "question_ja": "長年愛情を注いできた店や仕事を、結局整理したり手放したりしなければならなかった決断はありましたか？",
+        "applicability": {
+          "requires_marriage": false,
+          "requires_children": false,
+          "career_type": [
+            "self_employed"
+          ]
+        },
+        "themes": [
+          "리더십/조직관리"
+        ],
+        "persona_variant_of": 61
+      },
+      {
+        "id": 142,
+        "question_ko": "오랫동안 일궈온 농사나 땅을 결국 정리하거나 남에게 넘겨야 했던 결정이 있었나요?",
+        "question_ja": "長年築いてきた農業や土地を、結局整理したり人に譲ったりしなければならなかった決断はありましたか？",
+        "applicability": {
+          "requires_marriage": false,
+          "requires_children": false,
+          "career_type": [
+            "farmer"
+          ]
+        },
+        "themes": [
+          "리더십/조직관리"
+        ],
+        "persona_variant_of": 61
       }
     ]
   },
@@ -345,59 +1560,173 @@
     "life_stage_ja": "危機と試練・克服",
     "questions": [
       {
-        "id": 1,
+        "id": 62,
         "question_ko": "인생에서 가장 큰 위기나 벼랑 끝에 몰렸던 순간은 언제였나요? 무엇으로 버텨내셨나요?",
-        "question_ja": "人生で最大の危機、あるいは崖っぷちに立たされた瞬間はいつでしたか？何によって持ちこたえましたか？"
+        "question_ja": "人生で最大の危機、あるいは崖っぷちに立たされた瞬間はいつでしたか？何によって持ちこたえましたか？",
+        "applicability": {
+          "requires_marriage": false,
+          "requires_children": false,
+          "career_type": [
+            "any"
+          ]
+        },
+        "themes": [
+          "실패와극복"
+        ]
       },
       {
-        "id": 2,
+        "id": 63,
         "question_ko": "회사나 조직이 존폐의 위기에 처했을 때, 어떤 마음으로 맞서셨나요?",
-        "question_ja": "会社や組織が存続の危機に瀕した時、どんな気持ちで立ち向かいましたか？"
+        "question_ja": "会社や組織が存続の危機に瀕した時、どんな気持ちで立ち向かいましたか？",
+        "applicability": {
+          "requires_marriage": false,
+          "requires_children": false,
+          "career_type": [
+            "any"
+          ]
+        },
+        "themes": [
+          "실패와극복",
+          "리더십/조직관리"
+        ]
       },
       {
-        "id": 3,
+        "id": 64,
         "question_ko": "믿었던 사람에게 배신당하거나 억울한 오해와 비난을 받았던 경험이 있나요? 어떻게 대처하셨나요?",
-        "question_ja": "信頼していた人に裏切られたり、理不尽な誤解や非難を受けたりした経験はありますか？どう対処しましたか？"
+        "question_ja": "信頼していた人に裏切られたり、理不尽な誤解や非難を受けたりした経験はありますか？どう対処しましたか？",
+        "applicability": {
+          "requires_marriage": false,
+          "requires_children": false,
+          "career_type": [
+            "any"
+          ]
+        },
+        "themes": [
+          "인생철학/신념"
+        ]
       },
       {
-        "id": 4,
+        "id": 65,
         "question_ko": "전쟁이나 재난으로 삶의 터전(집, 일터)을 잃고 다시 일으켜 세운 경험이 있나요?",
-        "question_ja": "戦争や災害で生活の基盤（家、仕事場）を失い、再び立て直した経験はありますか？"
+        "question_ja": "戦争や災害で生活の基盤（家、仕事場）を失い、再び立て直した経験はありますか？",
+        "applicability": {
+          "requires_marriage": false,
+          "requires_children": false,
+          "career_type": [
+            "any"
+          ]
+        },
+        "themes": [
+          "시대적배경(전쟁·경제위기)"
+        ]
       },
       {
-        "id": 5,
+        "id": 66,
         "question_ko": "큰 병을 진단받았을 때, 그 사실을 어떻게 받아들이고 주변에 알리셨나요?",
-        "question_ja": "大きな病気の診断を受けた時、その事実をどう受け止め、周囲に伝えましたか？"
+        "question_ja": "大きな病気の診断を受けた時、その事実をどう受け止め、周囲に伝えましたか？",
+        "applicability": {
+          "requires_marriage": false,
+          "requires_children": false,
+          "career_type": [
+            "any"
+          ]
+        },
+        "themes": [
+          "건강/투병"
+        ]
       },
       {
-        "id": 6,
+        "id": 67,
         "question_ko": "자신의 잘못이 아닌 일로 책임을 지고 자리에서 물러나야 했던 경험이 있나요?",
-        "question_ja": "自分の過失ではないことで責任を取り、地位を退かなければならなかった経験はありますか？"
+        "question_ja": "自分の過失ではないことで責任を取り、地位を退かなければならなかった経験はありますか？",
+        "applicability": {
+          "requires_marriage": false,
+          "requires_children": false,
+          "career_type": [
+            "any"
+          ]
+        },
+        "themes": [
+          "인생철학/신념"
+        ]
       },
       {
-        "id": 7,
+        "id": 68,
         "question_ko": "조직이 큰 위기에 처했을 때, 구성원의 고용이나 생계를 지키기 위해 어떤 선택을 하셨나요?",
-        "question_ja": "組織が大きな危機に陥った時、従業員の雇用や生活を守るためにどんな選択をしましたか？"
+        "question_ja": "組織が大きな危機に陥った時、従業員の雇用や生活を守るためにどんな選択をしましたか？",
+        "applicability": {
+          "requires_marriage": false,
+          "requires_children": false,
+          "career_type": [
+            "any"
+          ]
+        },
+        "themes": [
+          "실패와극복",
+          "결단의순간",
+          "리더십/조직관리"
+        ]
       },
       {
-        "id": 8,
+        "id": 69,
         "question_ko": "뜻밖의 은인 덕분에 가장 큰 위기를 넘긴 경험이 있나요? 그 은혜를 어떻게 기억하고 계신가요?",
-        "question_ja": "思いがけない恩人のおかげで最大の危機を乗り越えた経験はありますか？その恩をどう心に留めていますか？"
+        "question_ja": "思いがけない恩人のおかげで最大の危機を乗り越えた経験はありますか？その恩をどう心に留めていますか？",
+        "applicability": {
+          "requires_marriage": false,
+          "requires_children": false,
+          "career_type": [
+            "any"
+          ]
+        },
+        "themes": [
+          "실패와극복",
+          "인간관계/멘토"
+        ]
       },
       {
-        "id": 9,
+        "id": 70,
         "question_ko": "가까운 사람을 갑작스럽게 잃었던 경험이 있나요? 그 상실이 이후 삶에 어떤 영향을 미쳤나요?",
-        "question_ja": "身近な人を突然失った経験はありますか？その喪失がその後の人生にどんな影響を与えましたか？"
+        "question_ja": "身近な人を突然失った経験はありますか？その喪失がその後の人生にどんな影響を与えましたか？",
+        "applicability": {
+          "requires_marriage": false,
+          "requires_children": false,
+          "career_type": [
+            "any"
+          ]
+        },
+        "themes": [
+          "인생철학/신념"
+        ]
       },
       {
-        "id": 10,
+        "id": 71,
         "question_ko": "인생에서 가장 힘들었던 시기, 모든 것을 포기하고 싶다고 생각했던 순간이 있나요? 무엇이 다시 일어서게 했나요?",
-        "question_ja": "人生で最も辛かった時期、すべてを諦めたいと思った瞬間はありますか？何が再び立ち上がらせてくれましたか？"
+        "question_ja": "人生で最も辛かった時期、すべてを諦めたいと思った瞬間はありますか？何が再び立ち上がらせてくれましたか？",
+        "applicability": {
+          "requires_marriage": false,
+          "requires_children": false,
+          "career_type": [
+            "any"
+          ]
+        },
+        "themes": [
+          "인생철학/신념"
+        ]
       },
       {
-        "id": 11,
+        "id": 72,
         "question_ko": "조직의 잘못이나 실수를 인정하고, 그 뒷수습에 책임지고 나서야 했던 경험이 있나요?",
-        "question_ja": "組織の過ちや失敗を認め、その後始末に責任を持って当たらなければならなかった経験はありますか？"
+        "question_ja": "組織の過ちや失敗を認め、その後始末に責任を持って当たらなければならなかった経験はありますか？",
+        "applicability": {
+          "requires_marriage": false,
+          "requires_children": false,
+          "career_type": [
+            "any"
+          ]
+        },
+        "themes": [
+          "리더십/조직관리"
+        ]
       }
     ]
   },
@@ -407,44 +1736,126 @@
     "life_stage_ja": "人間関係・恩師と同僚",
     "questions": [
       {
-        "id": 1,
+        "id": 73,
         "question_ko": "인생의 중요한 고비마다 곁에서 귀한 조언을 해준 은인 같은 존재가 있나요?",
-        "question_ja": "人生の大事な岐路のたびに、そばで貴重な助言をくれた恩人のような存在はいますか？"
+        "question_ja": "人生の大事な岐路のたびに、そばで貴重な助言をくれた恩人のような存在はいますか？",
+        "applicability": {
+          "requires_marriage": false,
+          "requires_children": false,
+          "career_type": [
+            "any"
+          ]
+        },
+        "themes": [
+          "인간관계/멘토"
+        ]
       },
       {
-        "id": 2,
+        "id": 74,
         "question_ko": "평생을 함께한 동료나 사업 파트너를 처음 만났던 순간을 기억하시나요? 어떻게 인연이 시작되었나요?",
-        "question_ja": "生涯を共にした同僚や事業パートナーと初めて出会った瞬間を覚えていますか？どのように縁が始まりましたか？"
+        "question_ja": "生涯を共にした同僚や事業パートナーと初めて出会った瞬間を覚えていますか？どのように縁が始まりましたか？",
+        "applicability": {
+          "requires_marriage": false,
+          "requires_children": false,
+          "career_type": [
+            "any"
+          ]
+        },
+        "themes": [
+          "인간관계/멘토"
+        ]
       },
       {
-        "id": 3,
+        "id": 75,
         "question_ko": "존경하는 상사나 스승에게서 받은 가르침 중 지금도 마음에 남아있는 것은 무엇인가요?",
-        "question_ja": "尊敬する上司や恩師から受けた教えの中で、今も心に残っているものは何ですか？"
+        "question_ja": "尊敬する上司や恩師から受けた教えの中で、今も心に残っているものは何ですか？",
+        "applicability": {
+          "requires_marriage": false,
+          "requires_children": false,
+          "career_type": [
+            "any"
+          ]
+        },
+        "themes": [
+          "교육/스승",
+          "인간관계/멘토"
+        ]
       },
       {
-        "id": 4,
+        "id": 76,
         "question_ko": "처음엔 부딪히거나 어려워했던 사람이 훗날 소중한 인연이나 은인이 된 경험이 있나요?",
-        "question_ja": "最初はぶつかったり苦手だったりした人が、後に大切な縁や恩人になった経験はありますか？"
+        "question_ja": "最初はぶつかったり苦手だったりした人が、後に大切な縁や恩人になった経験はありますか？",
+        "applicability": {
+          "requires_marriage": false,
+          "requires_children": false,
+          "career_type": [
+            "any"
+          ]
+        },
+        "themes": [
+          "인간관계/멘토"
+        ]
       },
       {
-        "id": 5,
+        "id": 77,
         "question_ko": "국적이나 배경이 다른 사람과 깊은 우정을 나눈 경험이 있나요? 그 인연에서 무엇을 얻으셨나요?",
-        "question_ja": "国籍や背景の違う人と深い友情を育んだ経験はありますか？その縁から何を得ましたか？"
+        "question_ja": "国籍や背景の違う人と深い友情を育んだ経験はありますか？その縁から何を得ましたか？",
+        "applicability": {
+          "requires_marriage": false,
+          "requires_children": false,
+          "career_type": [
+            "any"
+          ]
+        },
+        "themes": [
+          "인간관계/멘토"
+        ]
       },
       {
-        "id": 6,
+        "id": 78,
         "question_ko": "인생의 스승이나 오랜 벗을 떠나보낸 경험이 있다면, 그 사람과의 인연을 들려주시겠어요?",
-        "question_ja": "人生の恩師や長年の友を見送った経験があれば、その方との縁について聞かせていただけますか？"
+        "question_ja": "人生の恩師や長年の友を見送った経験があれば、その方との縁について聞かせていただけますか？",
+        "applicability": {
+          "requires_marriage": false,
+          "requires_children": false,
+          "career_type": [
+            "any"
+          ]
+        },
+        "themes": [
+          "교육/스승",
+          "인간관계/멘토"
+        ]
       },
       {
-        "id": 7,
+        "id": 79,
         "question_ko": "꼭 함께 일하고 싶은 사람을 얻기 위해 정성껏 설득했던 경험이 있나요?",
-        "question_ja": "どうしても一緒に働きたい人を得るために、心を込めて説得した経験はありますか？"
+        "question_ja": "どうしても一緒に働きたい人を得るために、心を込めて説得した経験はありますか？",
+        "applicability": {
+          "requires_marriage": false,
+          "requires_children": false,
+          "career_type": [
+            "any"
+          ]
+        },
+        "themes": [
+          "인생철학/신념"
+        ]
       },
       {
-        "id": 8,
+        "id": 80,
         "question_ko": "겉으로 보이는 모습과 달리, 실제로는 인간적이고 관대한 면모를 보여준 존경하는 사람이 있었나요?",
-        "question_ja": "表向きの姿とは違い、実は人間味あふれる寛大な一面を見せてくれた尊敬する人はいましたか？"
+        "question_ja": "表向きの姿とは違い、実は人間味あふれる寛大な一面を見せてくれた尊敬する人はいましたか？",
+        "applicability": {
+          "requires_marriage": false,
+          "requires_children": false,
+          "career_type": [
+            "any"
+          ]
+        },
+        "themes": [
+          "인생철학/신념"
+        ]
       }
     ]
   },
@@ -454,49 +1865,144 @@
     "life_stage_ja": "家庭・結婚と私生活",
     "questions": [
       {
-        "id": 1,
+        "id": 81,
         "question_ko": "배우자를 처음 만난 순간과 결혼을 결심하게 된 계기를 들려주세요.",
-        "question_ja": "配偶者と初めて出会った瞬間と、結婚を決意したきっかけを教えてください。"
+        "question_ja": "配偶者と初めて出会った瞬間と、結婚を決意したきっかけを教えてください。",
+        "applicability": {
+          "requires_marriage": true,
+          "requires_children": false,
+          "career_type": [
+            "any"
+          ]
+        },
+        "themes": [
+          "결혼/배우자"
+        ]
       },
       {
-        "id": 2,
+        "id": 82,
         "question_ko": "배우자가 인생의 가장 힘든 시기마다 어떻게 곁을 지켜주었나요?",
-        "question_ja": "配偶者は人生で最も辛い時期に、どのようにそばで支えてくれましたか？"
+        "question_ja": "配偶者は人生で最も辛い時期に、どのようにそばで支えてくれましたか？",
+        "applicability": {
+          "requires_marriage": true,
+          "requires_children": false,
+          "career_type": [
+            "any"
+          ]
+        },
+        "themes": [
+          "결혼/배우자"
+        ]
       },
       {
-        "id": 3,
+        "id": 83,
         "question_ko": "일에 몰두하느라 가족에게 소홀했던 시기를 돌아보면 어떤 마음이 드시나요?",
-        "question_ja": "仕事に没頭するあまり家族をおろそかにした時期を振り返ると、どんな気持ちになりますか？"
+        "question_ja": "仕事に没頭するあまり家族をおろそかにした時期を振り返ると、どんな気持ちになりますか？",
+        "applicability": {
+          "requires_marriage": false,
+          "requires_children": false,
+          "career_type": [
+            "any"
+          ]
+        },
+        "themes": [
+          "가족/고향"
+        ]
       },
       {
-        "id": 4,
+        "id": 84,
         "question_ko": "자녀를 키우면서 특별히 기억에 남는 순간이나 아쉬움이 있나요?",
-        "question_ja": "子育てをする中で、特に記憶に残る瞬間や心残りはありますか？"
+        "question_ja": "子育てをする中で、特に記憶に残る瞬間や心残りはありますか？",
+        "applicability": {
+          "requires_marriage": false,
+          "requires_children": true,
+          "career_type": [
+            "any"
+          ]
+        },
+        "themes": [
+          "자녀/양육"
+        ]
       },
       {
-        "id": 5,
+        "id": 85,
         "question_ko": "배우자나 가까운 가족을 먼저 떠나보낸 경험이 있나요? 그 상실감을 어떻게 견디셨나요?",
-        "question_ja": "配偶者や身近な家族を先に見送った経験はありますか？その喪失感をどう乗り越えましたか？"
+        "question_ja": "配偶者や身近な家族を先に見送った経験はありますか？その喪失感をどう乗り越えましたか？",
+        "applicability": {
+          "requires_marriage": false,
+          "requires_children": false,
+          "career_type": [
+            "any"
+          ]
+        },
+        "themes": [
+          "가족/고향",
+          "결혼/배우자"
+        ]
       },
       {
-        "id": 6,
+        "id": 86,
         "question_ko": "부모님을 떠나보내며 가장 마음에 남았던 순간이나 그때 들으신 말씀은 무엇인가요?",
-        "question_ja": "ご両親を見送った時、最も心に残った瞬間や、その時に聞いた言葉は何ですか？"
+        "question_ja": "ご両親を見送った時、最も心に残った瞬間や、その時に聞いた言葉は何ですか？",
+        "applicability": {
+          "requires_marriage": false,
+          "requires_children": false,
+          "career_type": [
+            "any"
+          ]
+        },
+        "themes": [
+          "가족/고향"
+        ]
       },
       {
-        "id": 7,
+        "id": 87,
         "question_ko": "일 외에 오랫동안 즐겨온 취미가 있나요? 가족은 그것을 어떻게 바라보았나요?",
-        "question_ja": "仕事以外に長く楽しんできた趣味はありますか？ご家族はそれをどう見ていましたか？"
+        "question_ja": "仕事以外に長く楽しんできた趣味はありますか？ご家族はそれをどう見ていましたか？",
+        "applicability": {
+          "requires_marriage": false,
+          "requires_children": false,
+          "career_type": [
+            "any"
+          ]
+        },
+        "themes": [
+          "가족/고향",
+          "취미/개인적즐거움"
+        ]
       },
       {
-        "id": 8,
+        "id": 88,
         "question_ko": "결혼에 이르기까지 집안의 반대 등 어려움을 겪은 적이 있나요? 어떻게 극복하셨나요?",
-        "question_ja": "結婚に至るまで、家族の反対など困難に直面したことはありますか？どう乗り越えましたか？"
+        "question_ja": "結婚に至るまで、家族の反対など困難に直面したことはありますか？どう乗り越えましたか？",
+        "applicability": {
+          "requires_marriage": true,
+          "requires_children": false,
+          "career_type": [
+            "any"
+          ]
+        },
+        "themes": [
+          "결혼/배우자",
+          "실패와극복"
+        ]
       },
       {
-        "id": 9,
+        "id": 89,
         "question_ko": "배우자나 가족이 당신의 큰 결단을 등 떠밀어 지지해준 경험이 있나요?",
-        "question_ja": "配偶者やご家族が、あなたの大きな決断を後押しして支えてくれた経験はありますか？"
+        "question_ja": "配偶者やご家族が、あなたの大きな決断を後押しして支えてくれた経験はありますか？",
+        "applicability": {
+          "requires_marriage": false,
+          "requires_children": false,
+          "career_type": [
+            "any"
+          ]
+        },
+        "themes": [
+          "가족/고향",
+          "결혼/배우자",
+          "결단의순간"
+        ]
       }
     ]
   },
@@ -506,44 +2012,126 @@
     "life_stage_ja": "価値観・人生哲学",
     "questions": [
       {
-        "id": 1,
+        "id": 90,
         "question_ko": "평생 마음에 새기고 살아온 신조나 좌우명이 있나요? 어떤 계기로 그것을 갖게 되셨나요?",
-        "question_ja": "生涯心に刻んで生きてきた信条や座右の銘はありますか？どんなきっかけでそれを持つようになりましたか？"
+        "question_ja": "生涯心に刻んで生きてきた信条や座右の銘はありますか？どんなきっかけでそれを持つようになりましたか？",
+        "applicability": {
+          "requires_marriage": false,
+          "requires_children": false,
+          "career_type": [
+            "any"
+          ]
+        },
+        "themes": [
+          "인생철학/신념"
+        ]
       },
       {
-        "id": 2,
+        "id": 91,
         "question_ko": "부모님이나 스승에게서 물려받은, 지금까지도 삶의 기준이 되는 가르침이 있나요?",
-        "question_ja": "ご両親や恩師から受け継ぎ、今も人生の基準となっている教えはありますか？"
+        "question_ja": "ご両親や恩師から受け継ぎ、今も人生の基準となっている教えはありますか？",
+        "applicability": {
+          "requires_marriage": false,
+          "requires_children": false,
+          "career_type": [
+            "any"
+          ]
+        },
+        "themes": [
+          "가족/고향",
+          "교육/스승",
+          "후계자/승계"
+        ]
       },
       {
-        "id": 3,
+        "id": 92,
         "question_ko": "눈앞의 이익보다 신의나 원칙을 지키는 것이 더 중요하다고 느꼈던 순간이 있나요?",
-        "question_ja": "目先の利益より信義や原則を守ることの方が大切だと感じた瞬間はありますか？"
+        "question_ja": "目先の利益より信義や原則を守ることの方が大切だと感じた瞬間はありますか？",
+        "applicability": {
+          "requires_marriage": false,
+          "requires_children": false,
+          "career_type": [
+            "any"
+          ]
+        },
+        "themes": [
+          "인생철학/신념"
+        ]
       },
       {
-        "id": 4,
+        "id": 93,
         "question_ko": "남들과 달랐던 자신의 조건(배경, 성별, 나이 등)이 오히려 강점이 되었다고 느낀 적이 있나요?",
-        "question_ja": "他人と違っていた自分の条件（背景、性別、年齢など）が、むしろ強みになったと感じたことはありますか？"
+        "question_ja": "他人と違っていた自分の条件（背景、性別、年齢など）が、むしろ強みになったと感じたことはありますか？",
+        "applicability": {
+          "requires_marriage": false,
+          "requires_children": false,
+          "career_type": [
+            "any"
+          ]
+        },
+        "themes": [
+          "인생철학/신념"
+        ]
       },
       {
-        "id": 5,
+        "id": 94,
         "question_ko": "지금까지의 인생을 한 문장으로 표현한다면 무엇이라 말씀하시겠어요?",
-        "question_ja": "これまでの人生を一言で表すとしたら、どう表現されますか？"
+        "question_ja": "これまでの人生を一言で表すとしたら、どう表現されますか？",
+        "applicability": {
+          "requires_marriage": false,
+          "requires_children": false,
+          "career_type": [
+            "any"
+          ]
+        },
+        "themes": [
+          "인생철학/신념"
+        ]
       },
       {
-        "id": 6,
+        "id": 95,
         "question_ko": "후배나 젊은 사람들에게 가장 자주 해주는 인생의 조언이나 좌우명이 있나요?",
-        "question_ja": "後輩や若い人によく伝える人生のアドバイスや座右の銘はありますか？"
+        "question_ja": "後輩や若い人によく伝える人生のアドバイスや座右の銘はありますか？",
+        "applicability": {
+          "requires_marriage": false,
+          "requires_children": false,
+          "career_type": [
+            "any"
+          ]
+        },
+        "themes": [
+          "인생철학/신념"
+        ]
       },
       {
-        "id": 7,
+        "id": 96,
         "question_ko": "나이가 들어서도 잃지 않으려 했던 마음가짐이 있다면 무엇인가요?",
-        "question_ja": "年を重ねても失いたくないと思ってきた心構えは何ですか？"
+        "question_ja": "年を重ねても失いたくないと思ってきた心構えは何ですか？",
+        "applicability": {
+          "requires_marriage": false,
+          "requires_children": false,
+          "career_type": [
+            "any"
+          ]
+        },
+        "themes": [
+          "인생철학/신념"
+        ]
       },
       {
-        "id": 8,
+        "id": 97,
         "question_ko": "시대의 흐름이나 유행에 휩쓸리지 않고 자신만의 신념을 지켰던 순간이 있나요?",
-        "question_ja": "時代の流れや流行に流されず、自分だけの信念を貫いた瞬間はありますか？"
+        "question_ja": "時代の流れや流行に流されず、自分だけの信念を貫いた瞬間はありますか？",
+        "applicability": {
+          "requires_marriage": false,
+          "requires_children": false,
+          "career_type": [
+            "any"
+          ]
+        },
+        "themes": [
+          "인생철학/신념"
+        ]
       }
     ]
   },
@@ -553,49 +2141,141 @@
     "life_stage_ja": "引退後・後世へのメッセージ",
     "questions": [
       {
-        "id": 1,
+        "id": 98,
         "question_ko": "후계자나 후임자에게 자리를 물려줄 때 가장 중요하게 생각한 기준은 무엇인가요?",
-        "question_ja": "後継者や後任に地位を引き継ぐ時、最も重視した基準は何ですか？"
+        "question_ja": "後継者や後任に地位を引き継ぐ時、最も重視した基準は何ですか？",
+        "applicability": {
+          "requires_marriage": false,
+          "requires_children": false,
+          "career_type": [
+            "any"
+          ]
+        },
+        "themes": [
+          "후계자/승계"
+        ]
       },
       {
-        "id": 2,
+        "id": 99,
         "question_ko": "스스로 물러날 때가 되었다고 느낀 순간은 언제였나요? 그것을 어떻게 알아차리셨나요?",
-        "question_ja": "自ら退く時が来たと感じた瞬間はいつでしたか？それをどう悟りましたか？"
+        "question_ja": "自ら退く時が来たと感じた瞬間はいつでしたか？それをどう悟りましたか？",
+        "applicability": {
+          "requires_marriage": false,
+          "requires_children": false,
+          "career_type": [
+            "any"
+          ]
+        },
+        "themes": [
+          "인생철학/신념"
+        ]
       },
       {
-        "id": 3,
+        "id": 100,
         "question_ko": "은퇴 후에도 계속 이어가고 있는 활동이나 취미가 있나요? 그것이 지금 삶에 어떤 의미인가요?",
-        "question_ja": "引退後も続けている活動や趣味はありますか？それは今の生活にどんな意味がありますか？"
+        "question_ja": "引退後も続けている活動や趣味はありますか？それは今の生活にどんな意味がありますか？",
+        "applicability": {
+          "requires_marriage": false,
+          "requires_children": false,
+          "career_type": [
+            "any"
+          ]
+        },
+        "themes": [
+          "취미/개인적즐거움",
+          "은퇴/노후설계"
+        ]
       },
       {
-        "id": 4,
+        "id": 101,
         "question_ko": "그동안 받은 은혜에 보답하고자, 은퇴 후 새롭게 시작한 일이 있나요?",
-        "question_ja": "これまで受けた恩に報いようと、引退後に新しく始めたことはありますか？"
+        "question_ja": "これまで受けた恩に報いようと、引退後に新しく始めたことはありますか？",
+        "applicability": {
+          "requires_marriage": false,
+          "requires_children": false,
+          "career_type": [
+            "any"
+          ]
+        },
+        "themes": [
+          "은퇴/노후설계"
+        ]
       },
       {
-        "id": 5,
+        "id": 102,
         "question_ko": "지금까지의 인생을 돌아보며, 다음 세대에게 꼭 전하고 싶은 말은 무엇인가요?",
-        "question_ja": "これまでの人生を振り返り、次の世代にどうしても伝えたい言葉は何ですか？"
+        "question_ja": "これまでの人生を振り返り、次の世代にどうしても伝えたい言葉は何ですか？",
+        "applicability": {
+          "requires_marriage": false,
+          "requires_children": false,
+          "career_type": [
+            "any"
+          ]
+        },
+        "themes": [
+          "인생철학/신념"
+        ]
       },
       {
-        "id": 6,
+        "id": 103,
         "question_ko": "나이가 들어서도 완전히 새로운 분야에 도전했던 경험이 있나요? 그 경험은 어땠나요?",
-        "question_ja": "年を重ねてからもまったく新しい分野に挑戦した経験はありますか？その経験はどうでしたか？"
+        "question_ja": "年を重ねてからもまったく新しい分野に挑戦した経験はありますか？その経験はどうでしたか？",
+        "applicability": {
+          "requires_marriage": false,
+          "requires_children": false,
+          "career_type": [
+            "any"
+          ]
+        },
+        "themes": [
+          "인생철학/신념"
+        ]
       },
       {
-        "id": 7,
+        "id": 104,
         "question_ko": "은퇴 이후, 사회나 고향·지역을 위해 새롭게 맡게 된 역할이 있나요?",
-        "question_ja": "引退後、社会や故郷・地域のために新たに担うようになった役割はありますか？"
+        "question_ja": "引退後、社会や故郷・地域のために新たに担うようになった役割はありますか？",
+        "applicability": {
+          "requires_marriage": false,
+          "requires_children": false,
+          "career_type": [
+            "any"
+          ]
+        },
+        "themes": [
+          "가족/고향",
+          "은퇴/노후설계"
+        ]
       },
       {
-        "id": 8,
+        "id": 105,
         "question_ko": "인생을 돌아볼 때, 재산이나 성취보다 더 남기고 싶은 것이 있다면 무엇인가요?",
-        "question_ja": "人生を振り返った時、財産や業績よりも残したいものがあるとすれば何ですか？"
+        "question_ja": "人生を振り返った時、財産や業績よりも残したいものがあるとすれば何ですか？",
+        "applicability": {
+          "requires_marriage": false,
+          "requires_children": false,
+          "career_type": [
+            "any"
+          ]
+        },
+        "themes": [
+          "인생철학/신념"
+        ]
       },
       {
-        "id": 9,
+        "id": 106,
         "question_ko": "다음 세대에게 실패나 도전에 대해 어떤 메시지를 전하고 싶으신가요?",
-        "question_ja": "次の世代に、失敗や挑戦についてどんなメッセージを伝えたいですか？"
+        "question_ja": "次の世代に、失敗や挑戦についてどんなメッセージを伝えたいですか？",
+        "applicability": {
+          "requires_marriage": false,
+          "requires_children": false,
+          "career_type": [
+            "any"
+          ]
+        },
+        "themes": [
+          "실패와극복"
+        ]
       }
     ]
   }

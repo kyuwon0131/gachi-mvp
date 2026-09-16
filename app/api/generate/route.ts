@@ -1,11 +1,14 @@
 import { NextRequest, NextResponse } from "next/server";
 import OpenAI from "openai";
+import { readOrCreateSessionId, attachSessionCookie } from "@/lib/session";
+import { getProfile } from "@/lib/profile";
 import {
   getQuestionById,
   getCurrentStageId,
   getRemainingQuestions,
   saveEntry,
   getProgressSummary,
+  getDominantThemes,
 } from "@/lib/questions";
 
 const openai = new OpenAI({
@@ -13,6 +16,8 @@ const openai = new OpenAI({
 });
 
 export async function POST(req: NextRequest) {
+  const { sessionId } = readOrCreateSessionId(req);
+
   try {
     const { text, questionId, history } = (await req.json()) as {
       text: string;
@@ -24,21 +29,29 @@ export async function POST(req: NextRequest) {
       return NextResponse.json({ error: "텍스트가 없습니다." }, { status: 400 });
     }
 
+    const profile = getProfile(sessionId);
     const askedQuestion = questionId ? getQuestionById(questionId) : undefined;
-    const lifeStageId = askedQuestion?.life_stage_id ?? getCurrentStageId() ?? 1;
+    const lifeStageId =
+      askedQuestion?.life_stage_id ?? getCurrentStageId(sessionId, profile) ?? 1;
     const askedKo = askedQuestion?.question_ko ?? "(자유 답변)";
 
-    const stageBefore = getCurrentStageId();
+    const stageBefore = getCurrentStageId(sessionId, profile);
 
-    // Candidates for the *next* question: remaining questions in the same stage,
-    // excluding the one the user just answered. The model may only pick from this list —
-    // it never invents question text itself.
-    const stageCandidates = getRemainingQuestions(lifeStageId).filter(
+    // Candidates for the *next* question: remaining eligible questions in the same
+    // stage (profile-filtered, one row per slot), excluding the one just answered.
+    // The model may only pick from this list — it never invents question text itself.
+    const stageCandidates = getRemainingQuestions(lifeStageId, sessionId, profile).filter(
       (q) => q.id !== questionId
     );
     const candidateList = stageCandidates
       .map((q) => `- id:${q.id} "${q.question_ko}"`)
       .join("\n");
+
+    const dominantThemes = getDominantThemes(sessionId);
+    const themeHint =
+      dominantThemes.length > 0
+        ? `\n[참고] 지금까지 사용자가 자주 언급한 주제: ${dominantThemes.join(", ")}. 후보 중 이 주제와 맞닿아 있는 질문이 있다면 우선적으로 고려하세요 (단, 자연스러운 흐름이 최우선입니다).`
+        : "";
 
     const systemPrompt = `당신은 시니어의 삶의 이야기를 아름다운 회고록으로 엮어주는 인터뷰 작가입니다.
 사용자가 방금 아래 질문에 음성으로 답변했습니다.
@@ -51,6 +64,7 @@ ${askedKo}
 1. chapter: 사용자의 답변을 1인칭 회고록 챕터 초안으로 작성. 문학적이고 따뜻한 문체로 200~400자.
 2. next_question_id: 아래 후보 질문 목록 중, 지금까지의 대화 흐름상 다음으로 묻기에 가장 자연스러운 질문의 id 하나.
    반드시 후보 목록에 있는 id 중 하나만 그대로 선택하세요. 질문 문구를 새로 짓거나 바꾸지 마세요.
+${themeHint}
 
 [다음 질문 후보]
 ${candidateList || "(이 생애주기의 후보가 모두 소진되었습니다. next_question_id는 null로 응답하세요.)"}
@@ -85,6 +99,7 @@ ${candidateList || "(이 생애주기의 후보가 모두 소진되었습니다.
 
     // Persist this turn now that we have the generated chapter.
     saveEntry({
+      sessionId,
       questionId: askedQuestion?.id ?? null,
       lifeStageId,
       questionKo: askedKo,
@@ -93,16 +108,16 @@ ${candidateList || "(이 생애주기의 후보가 모두 소진되었습니다.
     });
 
     // Resolve the actual next question. Recompute *after* saving, since saving just
-    // consumed one question from the pool and may have advanced the stage.
-    const stageAfter = getCurrentStageId();
+    // consumed one slot from the pool and may have advanced the stage.
+    const stageAfter = getCurrentStageId(sessionId, profile);
     let nextQuestion = null;
     if (stageAfter !== null) {
-      const pool = getRemainingQuestions(stageAfter);
+      const pool = getRemainingQuestions(stageAfter, sessionId, profile);
       nextQuestion =
         pool.find((q) => q.id === parsed.next_question_id) ?? pool[0] ?? null;
     }
 
-    return NextResponse.json({
+    const res = NextResponse.json({
       chapter: parsed.chapter,
       nextQuestion: nextQuestion
         ? {
@@ -117,13 +132,15 @@ ${candidateList || "(이 생애주기의 후보가 모두 소진되었습니다.
       stageAdvanced:
         stageBefore !== null && stageAfter !== null && stageAfter !== stageBefore,
       done: stageAfter === null,
-      progress: getProgressSummary(),
+      progress: getProgressSummary(sessionId, profile),
     });
+    return attachSessionCookie(res, sessionId);
   } catch (err) {
     console.error("[generate]", err);
-    return NextResponse.json(
+    const res = NextResponse.json(
       { error: "회고록 생성 중 오류가 발생했습니다." },
       { status: 500 }
     );
+    return attachSessionCookie(res, sessionId);
   }
 }
